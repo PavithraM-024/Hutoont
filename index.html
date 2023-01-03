@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> 
+       <title>Hutoont</title> 
+    </head>
+    <style>
+        
+        body,h2,h3{
+            margin:0;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        .landing{
+            background-image:url('https://images.pexels.com/photos/372882/pexels-photo-372882.jpeg');
+            background-size:cover;
+            background-position:center;
+            height:100vh;
+        }
+        header a{
+            text-decoration:none;
+        }
+        header{
+            display:flex;
+        }
+        .tag1
+        {
+            color:whitesmoke;
+        }
+        .tag2
+        {
+            color:whitesmoke;
+        }
+        .tag3
+        {
+            color:whitesmoke;
+        }
+        #logo{
+            flex:3;
+            font-size: 2.5em;
+            font-weight:bolder;
+            padding: 0.5em;
+        }
+        nav{
+            flex:2;
+            display: flex;
+            font-size: large;
+            padding:1em;
+        }
+        nav a{
+            flex:1;
+            font-size: larger;
+        }
+        nav a:hover{
+            color:aqua;
+        }
+        .main{
+            justify-content: center;
+            display:flex;
+            padding:2em;
+            height:50vh;
+            flex-direction: column;
+        }
+        .tag1{
+            color:aquamarine;
+            font-size: 2.5em;
+            font-weight: bolder;
+            
+        }
+        .tag2{
+            color:yellow;
+        }
+        .main button{
+            width: 15vw;
+            margin-top: 2em;
+            background-color: aquamarine;
+            border-radius:10px;
+            padding:1em;
+        }
+        .tag3{
+            color:blanchedalmond;
+        }
+        .cu1,h3
+        {
+            display: grid;
+            grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+            background:linear-gradient(to right,rgb(59, 148, 155),rgb(53,52,52));
+            color: white;
+        }
+        h2{
+            justify-content: center;
+            font-size: 2.5em;
+            color:rgb(116, 14, 23);
+            display: flex;
+            background:linear-gradient(to right,rgb(59,148,155),rgb(53,52,52));
+        }
+        .si th{
+            display: flex;
+            padding-top: 0.5em;
+            font-style: italic;
+            color:black;
+            width: 284px;
+        }
+        .ni th{
+            display: flex;
+            padding-top: 0.5em;
+            font-style: italic;
+            color:black;
+            width: 284px;
+        }
+        .Chat th{
+            display: flex;
+            padding-top: 0.5em;
+            font-style: italic;
+            color:black;
+            width:284px;
+        }
+        .juice th{
+            display: flex;
+            padding-top: 0.5em;
+            font-style: italic;
+            color:black;
+            width:284px;
+
+        }
+        table{
+            width: 100%;
+            padding: 1em;
+        }
+        .si tr{
+            display: flex;
+            justify-content: center;
+            margin-top:1em;
+        }
+        .ni tr{
+            display: flex;
+            justify-content: center;
+            margin-top:1em;
+
+        }
+        .Chat tr{
+            display: flex;
+            justify-content: center;
+            margin-top:1em;
+        }
+       .juice tr{
+            display: flex;
+            justify-content: center;
+            margin-top:1em;
+       }
+       .cu1 td:nth-child(1){
+          flex:1;
+          justify-self:left;
+       }
+       .cu1 td:nth-child(2){
+        flex:1;
+        justify-self:right;
+       }
+       #locheading{
+        display: flex;
+        justify-content:center;
+        color: brown;
+       }
+       .locations{
+        background:linear-gradient(to right,rgb(36, 123, 145),rgb(53, 52, 52));
+        color:var(--white);
+        display:flex;
+        flex-wrap:wrap;
+        display: grid;
+      }
+      .loc1{
+        justify-content: center;
+        display: flex;
+      }
+     address{
+        font-size: larger;
+     }
+     
+     footer{
+    background-color: rgb(55, 55, 55);
+    color:var(--white);
+    padding:.25em 1em;
+}
+
+#copyright{
+    margin-left:20px;
+}
+</style>
+<body>
+<div class="landing">
+    <header>
+        <a href="index.html" id="logo">Hutoont</a>
+        <nav>
+            <a href="#menuid">Menu</a>
+            <a href="#locheading">Location</a>
+        </nav>
+    </header>
+<div class= "main">
+    <div class="tag1">
+         Sensory Indulgence unlocked 
+    </div>
+    <br>
+    <div class="tag2">
+         Your hunger's at steak
+    </div>
+    <br>
+    <div class="tag3">
+        Contact:+91 7748775457
+    </div>
+    <br>
+    <button>Order Now</button>
+</div>
+  </div>
+</div>
+<h2 id="menuid">Menu</h2>
+ <div class="cu1">
+    <div class="si">
+        <table>
+            <th colspan="2">SouthIndian</th>
+            <tr>
+                <td>Idly</td>
+                <td>&#8377  50</td>
+            </tr>
+            <tr>
+                <td>Dosa</td>
+                <td>&#8377  45</td>
+            </tr>
+            <tr>
+                <td>Poori</td>
+                <td>&#8377  30</td>
+            </tr>
+            <tr>
+                <td>Chappathi</td>
+                <td>&#8377  50</td>
+            </tr>
+            <tr>
+                <td>Mini Meals</td>
+                <td>&#8377  100</td>
+            </tr>
+            <tr>
+                <td>Organic meals</td>
+                <td>&#8377  200</td>
+            </tr>
+            <tr>
+                <td>Paniyaram</td>
+                <td>&#8377  50</td>
+            </tr>
+        </table>
+    </div>
+    <div class="ni">
+        <table>
+            <th colspan="2">North Indian</th>
+            <tr>
+                <td>Panner tikka</td>
+                <td>&#8377 100</td>
+            </tr>
+            <tr>
+                <td>Mehthi Paratha</td>
+                <td>&#8377 120</td>
+            </tr>
+            <tr>
+                <td>Aloo paratha</td>
+                <td>&#8377 150 </td>
+            </tr>
+            <tr>
+                <td>Butter naan</td>
+                <td>&#8377 150 </td>
+            </tr>
+            <tr>
+                <td>Tandoori Naan</td>
+                <td>&#8377 100 </td>
+            </tr>
+            <tr>
+                <td>Stuffed Naan</td>
+                <td>&#8377 180</td>
+            </tr>
+            <tr>
+                <td>DAl Makhani</td>
+                <td>&#8377 90</td>
+            </tr>
+        </table>
+    </div>
+    <div class="Chat">
+        <table>
+            <th colspan="2">Chats</th>
+            <tr>
+                <td>Samosa</td>
+                <td>&#8377 20</td>
+            </tr>
+            <tr>
+                <td>Pani puri</td>
+                <td>&#8377 45</td>
+            </tr>
+            <tr>
+                <td>Masala puri</td>
+                <td>&#8377 45</td>
+            </tr>
+            <tr>
+                <td>vada Pav</td>
+                <td>&#8377 35 </td>
+            </tr>
+            <tr>
+                <td>Pav Bhaji</td>
+                <td>&#8377 50</td>
+            </tr>
+            <tr>
+                <td>Phel puri</td>
+                <td>&#8377 30</td>
+            </tr>
+            <tr>
+                <td> veg cutlet</td>
+                <td>&#8377 20</td>
+            </tr>
+        </table>
+    </div>
+    <div class="juice">
+        <table>
+            <th colspan="2"> Juices</th>
+            <tr>
+                <td>Lime juice</td>
+                <td>&#8377 90</td>
+            </tr>
+            <tr>
+                <td>Pomegranate juice</td>
+                <td>&#8377 100</td>
+            </tr>
+            <tr>
+                <td>soda</td>
+                <td>&#8377 90</td>
+            </tr>
+            <tr>
+                <td>Grape juice</td>
+                <td>&#8377 60 </td>
+            </tr>
+            <tr>
+                <td>Mango Juice</td>
+                <td>&#8377 100</td>
+            </tr>
+            <tr>
+                <td>Watermelon</td>
+                <td>&#8377 100</td>
+            </tr>
+            <tr>
+                <td> carrot</td>
+                <td>&#8377 80</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<h3 id="locheading">Locations</h3>
+<div class="locations">
+    <div class="loc1">
+        <address>
+            54/A, 10th Main Road</br>
+            Triplicane,</br>
+            Chennai - 600102
+        </address>
+    </div>
+    </div>
+    <footer>
+        <div id="copyright">&#169 Copyright Spicy Hut</div>
+    </footer> 
+    </footer>
+</body>
+</html>
